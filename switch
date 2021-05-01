@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Switch {
+    public static void  main (String[] args){
+
+        int choice;
+        System.out.println(" choose one please : 1.Hello\t2. Hi\t3. Hey\t");
+        Scanner s = new Scanner(System.in);
+        choice = s.nextInt();
+        switch(choice){
+            case 1 : System.out.println("You said Hello");
+              break;
+            case 2 : System.out.println("You said Hi");
+                break;
+            case 3: System.out.println("You said Hey");
+                break;
+            default:System.out.println("invalid choice");
+        }
+
+    }
+    
+}
